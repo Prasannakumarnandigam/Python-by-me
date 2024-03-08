@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58ab3a8e-0184-4eb4-9211-fedc28f78e09" name="Changes" comment="">
+    <list default="true" id="58ab3a8e-0184-4eb4-9211-fedc28f78e09" name="Changes" comment="object orinted programming">
       <change afterPath="$PROJECT_DIR$/.idea/ObjectOrientedProgramming.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -13,6 +13,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Accessors-mutators.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DuckTyping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubiod.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/inheritance.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/inner-nestedClass.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/methodOverloading.py" afterDir="false" />
@@ -43,28 +45,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Accessors-mutators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DuckTyping.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Rectangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cubiod.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inner-nestedClass.executor&quot;: &quot;Run&quot;,
-    &quot;Python.methodOverloading.executor&quot;: &quot;Run&quot;,
-    &quot;Python.methodOverriding.executor&quot;: &quot;Run&quot;,
-    &quot;Python.polymorphism.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Accessors-mutators.executor": "Run",
+    "Python.DuckTyping.executor": "Run",
+    "Python.Rectangle.executor": "Run",
+    "Python.cubiod.executor": "Run",
+    "Python.inheritance.executor": "Run",
+    "Python.inner-nestedClass.executor": "Run",
+    "Python.methodOverloading.executor": "Run",
+    "Python.methodOverriding.executor": "Run",
+    "Python.polymorphism.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,11 +88,63 @@
       <workItem from="1709627711598" duration="1352000" />
       <workItem from="1709681093685" duration="605000" />
       <workItem from="1709797384902" duration="1406000" />
+      <workItem from="1709902914763" duration="525000" />
     </task>
+    <task id="LOCAL-00001" summary="object orinted programming">
+      <option name="closed" value="true" />
+      <created>1709903388017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709903388017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="object orinted programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="object orinted programming" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ObjectOrientedProgramming$Rectangle.coverage" NAME="Rectangle Coverage Results" MODIFIED="1709311502024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
